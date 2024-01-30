@@ -1,0 +1,43 @@
+f=open('test.txt')
+f=open('C:/Ahmet/test.txt')
+r -read File
+w -write to file -or create file 
+a -append to end of file 
+t -text Mode 
+b -binary mode 
++ open file write and read (updeting)
+f=open ('test.txt','w')
+f=open ('img.bmp','r+b')
+f=open ('test.txt',mode='r',encoding='utf-8')
+f.close()
+try:
+    f=open('test.txt',encoding='utf-8')
+finally:
+    f.close()
+
+with open('test.txt','w',encoding='utf-8') as f:
+    f.write("this is first line\n")
+    f.write("this is second line\n")
+    f.write("this file contains three line")
+
+f=open('test.txt','r',encoding='utf-8')
+f.read()
+f.tell()
+
+
+
+
+
+
+
+#x+y __add__ -> x.__add__(y)
+#x-y __sub__ -> x.__sub__(y)
+#x*y __mul__ -> x.__mul__(y)
+#x**y __pow__ -> x.__pow__(y)
+#x/y __turediv -> x.__turediv__(y)
+#x//y __floordiv__ ->x.__floordiv__(y)
+#__mod__
+#less than __lt__ 
+#less or equal __le__ 
+#equal __eq__ 
+#not equal __ne__
